@@ -12,7 +12,7 @@ Write a for-loop that will iterate through 20 numbers (starting at 1 and ending 
 var text = "Now serving"
 for (var i = 1; i <= 20; i++){
 
-console.log(text, i);
+console.log(text, i + ".");
 }
 
 
@@ -26,7 +26,10 @@ This week's chart buster is: '24K Magic.'
 */
 
 var topFive = ["Closer", "Starboy", "I Feel It Coming", "Let Me Love You", "24K Magic"];
-
+var text = "This week's chart buster is: ";
+for (var i = 0; i < topFive.length; i++){
+  console.log(text + topFive[i] + ".");
+}
 
 /* 3) Dead Presidents
 Declare a variable named `presidents` and assign it to an array containing the following Presidents: Washington, Adams, Jefferson, Madison and Monroe.
