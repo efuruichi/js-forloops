@@ -1,4 +1,4 @@
-console.log ('helloworld')
+
 /* 1) Ticket Generator
 Write a for-loop that will iterate through 20 numbers (starting at 1 and ending at 20) and console.log the following message:
 "Now serving 1."
@@ -9,6 +9,11 @@ Write a for-loop that will iterate through 20 numbers (starting at 1 and ending 
 .
 "Now serving 20."
 */
+var text = "Now serving"
+for (var i = 1; i <= 20; i++){
+
+console.log(text, i);
+}
 
 
 /* 2) Pop Charts
